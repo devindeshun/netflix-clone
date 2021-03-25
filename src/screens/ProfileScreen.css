@@ -50,6 +50,14 @@
     padding-bottom: 10px;
 }
 
+.profileScreen__planType {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+
 .profileScreen__signOut {
     padding: 10px 20px;
     font-size: 1rem;
@@ -60,4 +68,14 @@
     font-weight: 600;
     border: none;
     cursor: pointer;
+}
+
+.profileScreen__subscribe {
+    font-size: 0.7rem;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
 }

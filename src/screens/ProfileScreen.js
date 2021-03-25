@@ -20,8 +20,21 @@ function ProfileScreen() {
                     />
                     <div className="profileScreen__details">
                         <h2>{user.email}</h2>
-                        <div className="profileScreens__plans">
-                            <h3>Plans (Current Plan: {})</h3>
+                        <div className="profileScreen__plans">
+                            <h3>Plans</h3>
+                            <div className="profileScreen__line"></div>
+                            <div className="profileScreen__planType">
+                                <h5>Basic Plan <br/>480p</h5>
+                                <button className="profileScreen__subscribe">Subscribe</button>
+                            </div>
+                            <div className="profileScreen__planType">
+                                <h5>Standard Plan <br/>720p</h5>
+                                <button className="profileScreen__subscribe">Subscribe</button>
+                            </div>
+                            <div className="profileScreen__planType">
+                                <h5>Premium Plan <br/>1080p</h5>
+                                <button className="profileScreen__subscribe">Subscribe</button>
+                            </div>
                             <button 
                                 onClick={() => auth.signOut()} 
                                 className="profileScreen__signOut"
